@@ -1,0 +1,17 @@
+####################################################################
+# Linux
+sudo apt update
+sudo apt install python3-virtualenv
+virtualenv envLinux
+source envLinux/bin/activate
+pip install modulos_que_se_quiera
+
+deactivate
+####################################################################
+# Windows
+python -m venv envWindows
+
+./envWindows/Script/activate
+pip install modulos_que_se_quiera
+./envWindows/Script/deactivate
+####################################################################
